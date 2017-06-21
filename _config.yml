@@ -99,8 +99,8 @@ gitment:
     owner: sparon
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 5eb66e8216a06efb44f3
+        client_secret: 913839876930839c7830ac36f138a075fbb81e85
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
 
