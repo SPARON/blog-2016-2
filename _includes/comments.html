@@ -82,7 +82,7 @@
         <script type="text/javascript" src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
         <script type="text/javascript">
             var gitment = new Gitment({
-                id: window.location.href, //'{{site.baseurl}}{{ page.url }}',
+                id: '{{ page.url }}',
                 owner: '{{ site.gitment.owner }}',
                 repo: '{{ site.gitment.repo }}',
                 oauth: {
