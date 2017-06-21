@@ -15,7 +15,7 @@ permalink: /about/
 ## 博客
 
 * 主：[blog.zhaokeyong.cn](http://blog.zhaokeyong.cn) 、 [sparon.github.io](http://sparon.github.io)
-* 备：[sparon.oschina.io](http://sparon.oschina.io) 、 [sparon.coding.me/blog](http://sparon.coding.me)
+* 备：[sparon.oschina.io](http://sparon.oschina.io) 、 [sparon.coding.me/blog](http://sparon.coding.me/blog)
 
 ## 联系
 
