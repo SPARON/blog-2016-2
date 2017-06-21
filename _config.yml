@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: SPARON
-organization: ThinkLite.cn
-organization_url: http://www.ThinkLite.cn
+#organization: ThinkLite.cn
+#organization_url: http://www.ThinkLite.cn
 github_username: sparon
 location: ChengDu, China
 email: sparon@126.com
