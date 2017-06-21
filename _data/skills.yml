@@ -1,0 +1,12 @@
+- name: Software Engineer Keywords
+  keywords:
+      - Java
+      - JavaScript
+      - HTML/CSS
+      - Golang
+      - Design Patterns
+
+- name: Mobile Developer Keywords
+  keywords:
+      - Android
+      - Reverse Engineering
