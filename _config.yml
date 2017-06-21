@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl: /blog
+baseurl: 
 #url: http://blog.zhaokeyong.cn
 url: http://sparon.coding.me/blog/
 date_format: "ordinal"
