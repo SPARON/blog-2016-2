@@ -12,6 +12,11 @@ permalink: /about/
 
 坚信熟能生巧，努力改变人生。
 
+## 博客
+
+* 主：[blog.zhaokeyong.cn](http://blog.zhaokeyong.cn) 、 [sparon.github.io](http://sparon.github.io)
+* 备：[sparon.oschina.io/blog](http://sparon.oschina.io/blog) 、 [sparon.coding.me/blog](http://sparon.coding.me/blog)
+
 ## 联系
 
 {% for website in site.data.social %}
