@@ -17,7 +17,7 @@ permalink: /about/
 * 主：[blog.zhaokeyong.cn](http://blog.zhaokeyong.cn) 、 [sparon.github.io](http://sparon.github.io)
 * 备：[sparon.oschina.io](http://sparon.oschina.io) 、 [sparon.coding.me/blog](http://sparon.coding.me/blog)
 
-## 联系
+## 社交
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
