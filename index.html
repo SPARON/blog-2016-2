@@ -35,6 +35,7 @@ comments: false
     </div>
 </section>
 <!-- /.banner -->
+
 <section class="container content">
     <div class="columns">
         <div class="column two-thirds" >
@@ -45,7 +46,11 @@ comments: false
                       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                     </h3>
                     <p class="repo-list-description">
-                        {{ post.excerpt | strip_html | strip }}
+                        {% if post.description %}
+                            {{ post.description | strip_html | strip }}
+                        {% else %}
+                            {{ post.excerpt | strip_html | strip }}
+                        {% endif %}
                     </p>
                     <p class="repo-list-meta">
                         <span class="meta-info">
