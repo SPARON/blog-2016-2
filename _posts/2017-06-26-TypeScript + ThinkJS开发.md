@@ -19,6 +19,7 @@ keywords: ThinkJS, TypeScript
 * ThinkJS
 
     [ThinkJS](http://thinkjs.org)是360奇舞团开发的一款前端框架，它主要是基于[ThinkPHP](http://www.thinkphp.cn)思想改造而来，目前版本为2.2.19，据官方报道会在6月底发布测试版，7月发布正式版，目前在Github中已经可以看到[3.0](https://github.com/thinkjs/thinkjs/tree/3.0)版本分支了。
+    
     为什么要选择ThinkJS，ThinkJS跟流行的Express、KOA、Egg.JS一样都是标准的mvc框架，与之不同的是，ThinkJS在框架层面为你做了更多，所以你可以将更多的精力分配在业务、逻辑处理，而不必过多的关心数据库连接、模型Curd、路由、页面渲染等方面的工作。
 
 # 遇到的问题
@@ -28,6 +29,7 @@ keywords: ThinkJS, TypeScript
 * 扩展JavaScript原生对象方法
 
     因为对TypeScript不熟悉，所以在开发中会遇到很多低级错误，扩展JavaScript对象方法就是其中一个。正因为JavaScript弱类型语言的灵活性，我们通常在JavaScript中写程序都很随意，而TypeScript则需要对每一个对象、方法、类型都需要事先定义，犹豫我们没有对原生对象需要扩展的方法进行定义，导致程序报错，以至于整个项目无法运行。
+
     > 需要注意的是：TypeScript中扩展对象（包括JavaScript原生），都需要在 `*.d.ts` 文件中进行事先定义，然后再做实现。
 
 * REST接口的定义
