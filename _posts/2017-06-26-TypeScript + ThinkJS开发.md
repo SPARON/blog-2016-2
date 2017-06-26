@@ -2,7 +2,7 @@
 layout: post
 title: TypeScript + ThinkJS开发
 date: 2017-06-26
-categories: [ThinkJS, TypeScript]
+categories: [程序开发]
 description: 主要讲一下使用TS开发ThinkJS过程中遇到的一些问题
 keywords: ThinkJS, TypeScript
 ---
