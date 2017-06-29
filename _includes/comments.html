@@ -35,9 +35,9 @@
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
         <!-- Disqus Protection, see https://github.com/mzlogin/mzlogin.github.io/issues/2 -->
-        {% if site.disqus.username == 'mzlogin' %}
+        {% if site.disqus.username == 'sparon' %}
           {% assign load_disqus = false %}
-          {% if site.url contains 'mazhuang.org' %}
+          {% if site.url contains 'zhaokeyong.cn' %}
             {% assign load_disqus = true %}
           {% endif %}
         {% endif %}
