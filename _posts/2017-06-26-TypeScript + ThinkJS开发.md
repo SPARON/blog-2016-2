@@ -32,6 +32,10 @@ keywords: ThinkJS, TypeScript
 
     > 需要注意的是：TypeScript中扩展对象（包括JavaScript原生），都需要在 `*.d.ts` 文件中进行事先定义，然后再做实现。
 
+* Session异步调用引发的问题
+
+    在ThinkJS中Session的读取是基于异步的。在写操作的时候完全能理解，但在读取session时便会出现问题，比如我在做登陆验证时，用户登陆后将写入session，在__before中统一处理登陆验证时，需要得到存入数据判断用户是否已登录后才能执行后续操作，但由于session是异步操作，故，在ThinkJS还未返回session值时，后续操作已经执行，甚至action已经开始执行或者当前Request已经返回数据了，那么要解决这个问题我们就只能将所有action都置为异步（ES7的语法是在action前加async），但这完全不是我们想看到的。否则就只能在每个需要验证的action内部重复调用session验证登陆。
+
 * REST接口的定义
 
     ThinkJS本身是支持Rest开发的，但需要继承 `think.controller.rest` 类，根据我们使用后的感受而言，目前版本的ThinkJS对Rest的支持力度不是很强，路径参数也只有一个固定的 `id` ，无法做到自定义，更别提多个、多级自定义参数了。
@@ -43,7 +47,7 @@ keywords: ThinkJS, TypeScript
 
 * 关联关系绑定？
 
-    该问题目前还在解决过程中，通过测试发现，在多级关联关系中，ThinkJS无法自动加载到子对象中。
+    经过开发实践后，得知通过ThinkJS在定义模型时声明模型间关系后，在加载模型时会自动加载简单逻辑关系模型，但对于相对复杂关联关系模型需要手动处理。
 
 # 参考资料
 
