@@ -2,8 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-#url: http://blog.zhaokeyong.cn
-url: http://sparon.coding.me/blog/
+url: http://blog.zhaokeyong.cn
+# url: http://sparon.coding.me/blog/
 date_format: "ordinal"
 title: ZKer
 subtitle: "思维改变生活"

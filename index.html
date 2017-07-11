@@ -79,7 +79,7 @@ comments: false
           <div class="btn-group">
             {% if paginator.previous_page %}
               {% if paginator.previous_page == 1 %}
-                  <a href="{{ site.baseurl }}" class="btn btn-outline">&laquo;</a>
+                  <a href="{{ site.baseurl }}/" class="btn btn-outline">&laquo;</a>
               {% else %}
                   <a href="{{ site.baseurl }}/page{{paginator.previous_page}}"  class="btn btn-outline">&laquo;</a>
               {% endif %}
@@ -89,7 +89,7 @@ comments: false
             {% if paginator.page == 1 %}
                 <a href="javascript:;" class="active btn btn-outline">1</a>
             {% else %}
-                <a href="{{ site.baseurl }}"  class="btn btn-outline">1</a>
+                <a href="{{ site.baseurl }}/"  class="btn btn-outline">1</a>
             {% endif %}
             {% for count in (2..paginator.total_pages) %}
               {% if count == paginator.page %}
