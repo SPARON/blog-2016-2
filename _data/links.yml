@@ -1,3 +1,9 @@
+- name: TiDB Blog
+  url: https://pingcap.github.io/blog/
+
+- name: The Raft Consensus Algorithm
+  url: https://raft.github.io/
+
 - name: Steve Losh
   url: http://stevelosh.com/
 
