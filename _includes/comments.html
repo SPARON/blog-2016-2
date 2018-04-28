@@ -96,9 +96,10 @@
         <div id="gitalk-container"></div>
         <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
         <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script src="{{ site.url }}/assets/js/md5.js"></script>
         <script>
         var gitalk = new Gitalk({
-            id: '{{ page.url }}',
+            id: hex_md5('{{ page.url }}'),
             clientID: '{{ site.github_comment.clientID }}',
             clientSecret: '{{ site.github_comment.clientSecret }}',
             repo: '{{ site.github_comment.repo }}',
