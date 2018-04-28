@@ -18,9 +18,6 @@
 
 - type: 个人博客
   items:
-    - name: 码志
-      url: http://mazhuang.org
-
     - name: TiDB Blog
       url: https://pingcap.github.io/blog/
 
