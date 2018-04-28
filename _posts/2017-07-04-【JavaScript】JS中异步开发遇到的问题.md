@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JS中异步开发遇到的问题
+title: 【JavaScript】JS中异步开发遇到的问题
 date: 2017-07-04
 categories: [程序开发]
 description: JS中异步开发起因与我在程序开发过程中遇到的问题梳理、总结。

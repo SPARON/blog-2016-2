@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linux bash Shell特殊变量
-date: 2017-06-20
-categories: [cate1, cate2]
+date: 2017-12-15
+categories: [环境配置]
 description: Linux bash Shell特殊变量：Shell `$0`, `$#`, `$*`, `$@`, `$?`, `$$`和命令行参数
 keywords: linux, bash
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 【Linux】Firewall常用命令
 date: 2017-12-27
-categories: 环境
+categories: [环境配置]
 description: Firewall常用命令
 ---
 

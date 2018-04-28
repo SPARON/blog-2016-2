@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NodeJS 错误处理最佳实践
+title: 【NodeJS】NodeJS 错误处理最佳实践
 date: 2017-06-23
 categories: [程序开发]
 description: NodeJS中程序遇到异常就会停止运行，初学者在遇到异常时通常都会采用回调的形式处理，这样本来结构很好的程序就会变成箭头程序。然而NodeJS官方给出了一套，今天我们分享的就是NodeJS官方给出的方案译文。当然，这不是我翻译的啦！

@@ -2,7 +2,7 @@
 layout: post
 title: 【Ovirt-Engine】CentOS 安装部署ovirt-engine
 date: 2017-11-28
-categories: 环境
+categories: [环境配置]
 description: CentOS 安装部署ovirt-engine手记
 ---
 

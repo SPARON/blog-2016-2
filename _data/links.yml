@@ -1,68 +1,79 @@
-- name: TiDB Blog
-  url: https://pingcap.github.io/blog/
+- type: 思维
+  items: 
+    - name: Mind Hacks
+      url: https://mindhacks.com/
 
-- name: The Raft Consensus Algorithm
-  url: https://raft.github.io/
+    - name: 刘未鹏 - Mind Hacks
+      url: http://mindhacks.cn/
 
-- name: Steve Losh
-  url: http://stevelosh.com/
+- type: 技术站点
+  items: 
+    - name: 酷壳
+      url: http://coolshell.cn/
 
-- name: Derek Sivers
-  url: http://sivers.org/
+- type: 算法
+  items:
+    - name: The Raft Consensus Algorithm
+      url: https://raft.github.io/
 
-- name: 酷壳
-  url: http://coolshell.cn/
+- type: 个人博客
+  items:
+    - name: 码志
+      url: http://mazhuang.org
 
-- name: Connie 酱
-  url: https://connie99.github.io
+    - name: TiDB Blog
+      url: https://pingcap.github.io/blog/
 
-- name: 只宁静不致远
-  url: http://zxning.github.io
+    - name: Steve Losh
+      url: http://stevelosh.com/
 
-- name: Blog Something
-  url: http://chenxiaoyoyo.github.io
+    - name: Derek Sivers
+      url: http://sivers.org/
 
-- name: 码志
-  url: http://mazhuang.org
+    - name: Connie 酱
+      url: https://connie99.github.io
 
-- name: 读立写生
-  url: http://www.cnfeat.com
+    - name: 只宁静不致远
+      url: http://zxning.github.io
 
-- name: BeiYuu
-  url: http://beiyuu.com/
+    - name: Blog Something
+      url: http://chenxiaoyoyo.github.io
 
-- name: I'm Sun
-  url: https://imsun.net
+    - name: 码志
+      url: http://mazhuang.org
 
-- name: JIN
-  url: http://yi-love.github.io/blog/
+    - name: 读立写生
+      url: http://www.cnfeat.com
 
-- name: Jandaes
-  url: http://liujilu.com/
+    - name: BeiYuu
+      url: http://beiyuu.com/
 
-- name: forvoid的博客
-  url: https://blog.forvoid.me/
+    - name: I'm Sun
+      url: https://imsun.net
 
-- name: 刘未鹏 - Mind Hacks
-  url: http://mindhacks.cn/
+    - name: JIN
+      url: http://yi-love.github.io/blog/
 
-- name: Mind Hacks
-  url: https://mindhacks.com/
-  
-- name: 风波竹林 - FBZL
-  url: https://blog.fbzl.org/
+    - name: Jandaes
+      url: http://liujilu.com/
 
-- name: star7th
-  url: http://blog.star7th.com
+    - name: forvoid的博客
+      url: https://blog.forvoid.me/
 
-- name: I.T's 兵戈
-  url: http://bingohuang.com/
+    - name: 风波竹林 - FBZL
+      url: https://blog.fbzl.org/
 
-- name: 粉丝日志 - 跨界的IT博客
-  url: http://blog.fens.me/
+    - name: star7th
+      url: http://blog.star7th.com
 
-- name: gclxry
-  url: http://blog.gclxry.com/
+    - name: I.T's 兵戈
+      url: http://bingohuang.com/
+
+    - name: 粉丝日志 - 跨界的IT博客
+      url: http://blog.fens.me/
+
+    - name: gclxry
+      url: http://blog.gclxry.com/
 
 - name: http://yijiebuyi.com
   url: http://yijiebuyi.com

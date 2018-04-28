@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Java远程连接并执行Linux命令"
+title:  【Java】Java远程连接并执行Linux命令
 date:   2017-11-28
-categories: 编程
+categories: [程序开发]
 description: Java远程连接Linux系统并执行Linux命令
 ---
 

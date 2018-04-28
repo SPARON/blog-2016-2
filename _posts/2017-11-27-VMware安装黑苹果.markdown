@@ -2,7 +2,7 @@
 layout: post
 title:  "VMware安装黑苹果"
 date:   2017-11-27
-categories: Maven
+categories: [环境配置]
 description: 在VMware虚拟机下安装苹果系统
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 利用 Chocolatey 快速在 Windows 下搭建一个开发环境
 date: 2018-01-03
-categories: 环境
+categories: [环境配置]
 description: 在 Linux 下，大家喜欢用 apt-get 来安装应用程序，如今在 windows 下，大家可以使用 Chocolatey 来快速下载搭建一个开发环境。
 ---
 

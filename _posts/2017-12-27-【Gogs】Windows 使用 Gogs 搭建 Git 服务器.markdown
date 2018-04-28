@@ -2,7 +2,7 @@
 layout: post
 title: 【Gogs】Windows 使用 Gogs 搭建 Git 服务器
 date: 2017-12-27
-categories: 配置
+categories: [环境配置]
 description: Windows 使用 Gogs 搭建 Git 服务器
 ---
 

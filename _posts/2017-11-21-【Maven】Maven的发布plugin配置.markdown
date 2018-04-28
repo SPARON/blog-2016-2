@@ -2,7 +2,7 @@
 layout: post
 title: 【Maven】Maven的发布Plugin配置
 date: 2017-11-21
-categories: 配置
+categories: [Maven]
 description: Maven打包、发布相关信息配置
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 【NodeJS】CentOS安装NodeJS
 date: 2017-12-12
-categories: 环境
+categories: [环境配置]
 description: CentOS下安装最新NodeJS操作步骤
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 【PostgreSQL】PostgreSQL开启远程访问
 date: 2017-12-27
-categories: 环境
+categories: [环境配置]
 description: PostgreSQL开启远程访问
 ---
 

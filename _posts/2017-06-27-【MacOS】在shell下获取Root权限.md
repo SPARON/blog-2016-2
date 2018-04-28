@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MacOS在shell下获取Root权限
+title: 【MacOS】在shell下获取Root权限
 date: 2017-06-27
 categories: [环境配置]
 description: 在MacOS中获取root权限的方式

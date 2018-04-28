@@ -2,7 +2,7 @@
 layout: post
 title: 【Ovirt-Engine】打RPM包配置
 date: 2017-11-29
-categories: 配置
+categories: [环境配置]
 description: 打RPM包配置说明
 ---
 
