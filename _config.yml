@@ -90,7 +90,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 disqus:
     username: sparon
 # https://gentie.163.com
