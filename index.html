@@ -5,6 +5,7 @@ css: ['pages/index.css']
 comments: false
 ---
 
+<!-- .banner -->
 <section class="banner">
     <div class="collection-head">
         <div class="container">
@@ -36,9 +37,11 @@ comments: false
 </section>
 <!-- /.banner -->
 
+<!-- section.content -->
 <section class="container content">
     <div class="columns">
         <div class="column two-thirds" >
+            <!-- article -->
             <ol class="repo-list">
                 {% for post in paginator.posts %}
                 <li class="repo-list-item">
@@ -68,7 +71,9 @@ comments: false
                 </li>
                 {% endfor %}
             </ol>
+            <!-- /article -->
 
+            <!-- pagination -->
             {% if paginator.total_pages > 1 %}
             <div class="pagination text-align">
             <div class="btn-group">
