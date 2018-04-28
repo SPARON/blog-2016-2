@@ -104,8 +104,7 @@
             repo: '{{ site.github_comment.repo }}',
             owner: '{{ site.github_comment.owner }}',
             admin: ['{{ site.github_comment.owner }}'],
-            perPage: 50,
-            id: location.pathname
+            perPage: 50
         })
         gitalk.render('gitalk-container')
         </script>
