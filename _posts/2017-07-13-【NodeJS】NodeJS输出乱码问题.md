@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NodeJS输出乱码问题
+title: 【NodeJS】NodeJS输出乱码问题
 date: 2017-07-13
 categories: [程序开发]
 description: NodeJS从读取文件到输出页面中编码处理问题
