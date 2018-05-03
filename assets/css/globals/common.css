@@ -703,3 +703,9 @@ a{
 pre {
     border: 1px solid #ccc;
 }
+.btn-outline {
+    color: #6cc441;
+}
+.btn-outline:active {
+    background-color: #6cc441;
+}
