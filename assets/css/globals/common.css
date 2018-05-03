@@ -706,6 +706,6 @@ pre {
 .btn-outline {
     color: #6cc441;
 }
-.btn-outline:active {
+.btn-outline:hover {
     background-color: #6cc441;
 }
