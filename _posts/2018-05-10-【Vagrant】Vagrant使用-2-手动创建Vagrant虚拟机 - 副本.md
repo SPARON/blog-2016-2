@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 手动创建Vagrant虚拟机
+title: 【Vagrant】Vagrant使用 - 2.手动创建Vagrant虚拟机
 date: 2018-05-10
 categories: [环境配置]
 description: 网络下载不太靠谱，官方镜像网站下载速度太慢，可以尝试手动自己创建。简单几步即可创建，需要注意的是权限和virtulbox addition的安装，否则会出错哦！
@@ -89,6 +89,5 @@ cd /media/cdrom
 4. [[已解决]vagrant共享文件夹挂载失败.Vagrant was unable to mount VirtualBox shared folders](https://blog.csdn.net/ifeng6/article/details/76316991)
 5. [VirtualBox中的Centos安装增强功能包VBoxLinuxAdditions和共享本机文件夹](https://blog.csdn.net/buyueliuying/article/details/51645649)
 6. [CentOS7 在 VirtualBox 上的安装配置（2） -- VirtualBox 增强包安装篇](https://segmentfault.com/a/1190000006233585)
-7. [vagrant系列二：vagrant的配置文件vagrantfile详解](https://blog.csdn.net/hel12he/article/details/51089774)
-8. [使用Vagrant安装的box镜像都放在了哪里？可以更改嘛？](https://blog.csdn.net/gsls181711/article/details/49450013)
+7. [使用Vagrant安装的box镜像都放在了哪里？可以更改嘛？](https://blog.csdn.net/gsls181711/article/details/49450013)
 

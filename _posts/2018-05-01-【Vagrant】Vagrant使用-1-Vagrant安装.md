@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vagrant入门
+title: 【Vagrant】Vagrant使用 - 1.Vagrant安装
 date: 2018-05-01
 categories: [环境配置]
 description: Vagrant是一款用来构建虚拟开发环境的外挂工具，可以简化虚拟机配置和管理。它底层支持VirtualBox、VMware、AWS等，非常适合使用php/python/ruby/java语言开发web应用，“代码在我机子上运行没有问题”这种说辞将成为历史。
