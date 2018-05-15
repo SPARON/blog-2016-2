@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 【Vagrant】Vagrant使用 - 3.Vagrantfile详解
-date: 2018-05-10
+date: 2018-05-17
 categories: [环境配置]
 description: 通过之前两篇文章，基本可以应付日常开发中大多数情况了。本文就讲讲vagrantfile配置文件的更多配置。
 keywords: vagrant
