@@ -13,11 +13,11 @@ keywords: vagrant
 3. 配置用户免密执行sudo权限命令
 4. 安装VBoxGuestAditions.iso
 5. 如果用户名、密码为vagrant可添加ssh key到用户目录（~/.ssh/authorized_keys）
-6. vagrant package --base <VB虚拟机名称> --output <输出box名称>
-7. vagrant box add <输出box名称> --name <vagrant管理名称>
-8. vagrant init <vagrant管理名称>
-9. vagrant up
-10. vagrant ssh
+6. `vagrant package --base <VB虚拟机名称> --output <输出box名称>`
+7. `vagrant box add <输出box名称> --name <vagrant管理名称>`
+8. `vagrant init <vagrant管理名称>`
+9. `vagrant up`
+10. `vagrant ssh`
 
 # 安装过程遇到的问题
 
