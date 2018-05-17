@@ -92,4 +92,4 @@ cd /media/cdrom
 7. [使用Vagrant安装的box镜像都放在了哪里？可以更改嘛？](https://blog.csdn.net/gsls181711/article/details/49450013)
 8. [vagrant系列二：vagrant的配置文件vagrantfile详解](https://blog.csdn.net/hel12he/article/details/51089774)
 9. [vagrant配置文件vagrantfile详解 ](https://www.36nu.com/post/264)
-
+10. [Vagrant：虚拟机管理](https://ninghao.net/course/1569)
