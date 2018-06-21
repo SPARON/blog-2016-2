@@ -25,7 +25,7 @@ keywords: vagrant
 
 由于虚拟机内未配置ssh key，导致vagrant启动虚拟机后无法连接。
 
-![](/resources/2018-05-10-手动创建Vagrant虚拟机/1-ssh用户名密码未配置_1.PNG)
+![](/resources/2018-05-10-【Vagrant】Vagrant使用-2-手动创建Vagrant虚拟机/1-ssh用户名密码未配置_1.PNG)
 
 **解决方案：（以下两种任选其一）**
 
@@ -43,8 +43,8 @@ keywords: vagrant
 
 ## 用户sudo权限未免密
 
-![](/resources/2018-05-10-手动创建Vagrant虚拟机/2-用户sudo权限未免密_1.PNG)
-![](/resources/2018-05-10-手动创建Vagrant虚拟机/2-用户sudo权限未免密_2.PNG)
+![](/resources/2018-05-10-【Vagrant】Vagrant使用-2-手动创建Vagrant虚拟机/2-用户sudo权限未免密_1.PNG)
+![](/resources/2018-05-10-【Vagrant】Vagrant使用-2-手动创建Vagrant虚拟机/2-用户sudo权限未免密_2.PNG)
 
 **解决方案**：
 
@@ -59,7 +59,7 @@ vagrant ALL=(ALL)       NOPASSWD:       ALL
 
 ## Virtualbox additions未安装
 
-![](/resources/2018-05-10-手动创建Vagrant虚拟机/3-virtualbox additions未安装_1.PNG)
+![](/resources/2018-05-10-【Vagrant】Vagrant使用-2-手动创建Vagrant虚拟机/3-virtualbox additions未安装_1.PNG)
 
 **解决方案**：
 
@@ -77,7 +77,7 @@ cd /media/cdrom
 ## 成功启动
 最后还是放一张成功的图吧!
 
-![](/resources/2018-05-10-手动创建Vagrant虚拟机/4-成功.PNG)
+![](/resources/2018-05-10-【Vagrant】Vagrant使用-2-手动创建Vagrant虚拟机/4-成功.PNG)
 
 
 
