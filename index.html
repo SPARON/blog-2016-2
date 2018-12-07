@@ -40,7 +40,7 @@ comments: false
 <!-- section.content -->
 <section class="container content">
     <div class="columns">
-        <div class="column two-thirds" >
+        <div class="column " bak-class="two-thirds" >
             <!-- article -->
             <ol class="repo-list">
                 {% for post in paginator.posts %}
@@ -76,7 +76,7 @@ comments: false
             <!-- pagination -->
             {% if paginator.total_pages > 1 %}
             <div class="pagination text-align">
-            <div class="btn-group">
+            <div class="btn-group right">
                 {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
                     <a href="{{ site.baseurl }}/" class="btn btn-outline">&laquo;</a>
@@ -108,10 +108,13 @@ comments: false
             {% endif %}
             <!-- /pagination -->
         </div>
+
+        <!-- 
         <div class="column one-third">
             {% include sidebar-search.html %}
             {% include sidebar-popular-repo.html %}
         </div>
+        -->
     </div>
 </section>
 <!-- /section.content -->
